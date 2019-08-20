@@ -7,4 +7,4 @@ A simple "game" that consists in guess a color shown as RGB mode.
 
 ![alt text](https://i.imgur.com/yMGjLIf.png)
 
-Click here to [play](https://raw.githack.com/aaroni34/webSimple/master/./colorGame/colorGame.html) the game.
+Click here to [play](https://htmlpreview.github.io/?https://github.com/aaroni34/webSimple/blob/master/colorGame/colorGame.html) the game.
