@@ -10,9 +10,7 @@ var easyButton = document.querySelector("#easy");
 var hardButton = document.querySelector("#hard");
 
 //Add event click to ResetButton
-resetButton.addEventListener("click", function(){
-	randomColors();
-});
+resetButton.addEventListener("click", () => {randomColors()});
 
 //Add event click to easyButton
 easyButton.addEventListener("click", function(){
