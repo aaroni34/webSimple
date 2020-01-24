@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Simple Calculator</title>
+        <link rel="stylesheet" href="calc_style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <table> 
+            <tr> 
+                <td colspan="4"><input id="info" type="text"/></td> 
+            </tr> 
+            <tr> 
+                <td><input id="c" type="button" value="C" /> </td> 
+                <td><input id="changesign" type="button" value="+/-" /> </td> 
+                <td><input type="button" value="%" /> </td> 
+                <td><input id="div" class="sign" type="button" value="/" /> </td> 
+            </tr> 
+            <tr> 
+                <td><input id="7" class="number" type="button" value="7" /> </td> 
+                <td><input id="8" class="number" type="button" value="8" /> </td> 
+                <td><input id="9" class="number" type="button" value="9" /> </td> 
+                <td><input id="mult" class="sign" type="button" value="*" /> </td> 
+            </tr> 
+            <tr> 
+                <td><input id="4" class="number" type="button" value="4" /> </td> 
+                <td><input id="5" class="number" type="button" value="5" /> </td> 
+                <td><input id="6" class="number" type="button" value="6" /> </td> 
+                <td><input id="minus" class="sign" type="button" value="-" /> </td> 
+            </tr> 
+            <tr> 
+                <td><input id="1" class="number" type="button" value="1" /> </td> 
+                <td><input id="2" class="number" type="button" value="2" /> </td> 
+                <td><input id="3" class="number" type="button" value="3" /> </td> 
+                <td><input id="plus" class="sign" type="button" value="+" /> </td> 
+            </tr> 
+            <tr>
+                <td colspan="2"><input class="number" type="button" value="0" /> </td> 
+                <td><input id="." class="number" type="button" value="." /> </td> 
+                <td><input id="equal" type="button" value="=" /> </td> 
+            </tr>
+        </table> 
+        <script src="calc_logic.js"></script>
+    </body>
+</html>
