@@ -32,3 +32,4 @@ Simple web calculator. It can multiply, add, subtract and divide.For now, it isn
 ![Calculator Image](imgs/calculator.png)
 
 Click here to [preview](https://htmlpreview.github.io/?https://github.com/aaroni34/webSimple/blob/master/calculator/calculator.html).
+> Preview is not working well due to Access-Control-Allow-Origin.
